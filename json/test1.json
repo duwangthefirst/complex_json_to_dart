@@ -1,0 +1,26 @@
+{
+  "a__DICT_OF_Apple": {
+    "b__DICT_OF_Banana": {
+      "c__DICT_OF_Cocktail": {
+        "name": "complex json with embedded object"
+      }
+    }
+  },
+  "e": [1, 2, 3],
+  "product_list__DICT_OF_Product": [
+    {
+      "name": "product 1",
+      "is_on_sale": true,
+      "available": 18,
+      "price": 13.33,
+      "other": null
+    },
+    {
+      "name": "product 2",
+      "is_on_sale": true,
+      "available": 99,
+      "price": 10.33,
+      "other": null
+    }
+  ]
+}

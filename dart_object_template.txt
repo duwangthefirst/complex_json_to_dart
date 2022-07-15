@@ -1,0 +1,16 @@
+class {{ class_name }} {
+
+  {{ block_of_member_definition }}
+
+  {{ class_name }}({
+    {{ block_of_construct_argument }}
+  });
+
+  {{ class_name }}.fromJson(Map<String, dynamic> json) {
+    {{ block_of_from_json }}
+  }
+
+  Map<String, dynamic> toJson() {
+    {{ block_of_to_json }}
+  }
+}
