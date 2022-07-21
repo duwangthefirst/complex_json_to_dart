@@ -245,4 +245,7 @@ def batch_transform(json_dir, dart_dir):
 
 
 if __name__ == '__main__':
-    batch_transform("./json/", "./dart/")
+    # batch_transform("./json/", "./dart/")
+    # ComplexJsonToDart("./json/api_response.json", "./dart/api_response.dart").generate()
+    # ComplexJsonToDart("./json/token.json", "./dart/token.dart").generate()
+    ComplexJsonToDart("./json/product_category_relation.json", "./dart/product_category_relation.dart").generate()
